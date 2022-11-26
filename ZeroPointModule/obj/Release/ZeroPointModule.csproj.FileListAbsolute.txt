@@ -1,0 +1,14 @@
+C:\Users\duse3\source\repos\ZeroPointModule\bin\Release\mod.yaml
+C:\Users\duse3\source\repos\ZeroPointModule\bin\Release\mod_info.yaml
+C:\Users\duse3\source\repos\ZeroPointModule\bin\Release\ZeroPointModule.dll
+C:\Users\duse3\source\repos\ZeroPointModule\bin\Release\ZeroPointModule.pdb
+C:\Users\duse3\source\repos\ZeroPointModule\bin\Release\0Harmony.dll
+C:\Users\duse3\source\repos\ZeroPointModule\bin\Release\Assembly-CSharp-firstpass.dll
+C:\Users\duse3\source\repos\ZeroPointModule\bin\Release\Assembly-CSharp.dll
+C:\Users\duse3\source\repos\ZeroPointModule\bin\Release\UnityEngine.CoreModule.dll
+C:\Users\duse3\source\repos\ZeroPointModule\bin\Release\UnityEngine.dll
+C:\Users\duse3\source\repos\ZeroPointModule\obj\Release\ZeroPointModule.csprojAssemblyReference.cache
+C:\Users\duse3\source\repos\ZeroPointModule\obj\Release\ZeroPointModule.csproj.CoreCompileInputs.cache
+C:\Users\duse3\source\repos\ZeroPointModule\obj\Release\ZeroPointModule.csproj.CopyComplete
+C:\Users\duse3\source\repos\ZeroPointModule\obj\Release\ZeroPointModule.dll
+C:\Users\duse3\source\repos\ZeroPointModule\obj\Release\ZeroPointModule.pdb
