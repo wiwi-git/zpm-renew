@@ -26,7 +26,9 @@ namespace ZeroPointModule
     {
         public static void Postfix()
         {
-            Db.Get().Techs.Get("RenewableEnergy").unlockedItemIDs.Add(ZeroPointModuleConfig.ID);
+            // Db.Get().Techs.Get("RenewableEnergy").unlockedItemIDs.Add(ZeroPointModuleConfig.ID);
+            Db.Get().Techs.Get("PowerRegulation").unlockedItemIDs.Add(ZeroPointModuleConfig.ID);
+
         }
     }
 

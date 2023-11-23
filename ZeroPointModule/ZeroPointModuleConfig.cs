@@ -15,8 +15,10 @@ class ZeroPointModuleConfig : BaseBatteryConfig
         int hitpoints = 60;
         string anim = "smartbattery_kanim";
         float construction_time = 120f;
-        float[] tIER = TUNING.BUILDINGS.CONSTRUCTION_MASS_KG.TIER7;
-        string[] aLL_METALS = TUNING.MATERIALS.REFINED_METALS;
+        // float[] tIER = TUNING.BUILDINGS.CONSTRUCTION_MASS_KG.TIER7;
+        float[] tIER = TUNING.BUILDINGS.CONSTRUCTION_MASS_KG.TIER1;
+        // string[] aLL_METALS = TUNING.MATERIALS.REFINED_METALS;
+        string[] aLL_METALS = TUNING.MATERIALS.ALL_METALS;
         float melting_point = 800f;
         float exhaust_temperature_active = 0f;
         float self_heat_kilowatts_active = 1f;
