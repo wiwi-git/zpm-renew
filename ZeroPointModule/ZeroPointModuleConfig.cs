@@ -7,7 +7,9 @@ using UnityEngine;
 class ZeroPointModuleConfig : BaseBatteryConfig
 {
     public const string ID = "ZeroPointModule";
-    public override BuildingDef CreateBuildingDef()
+    public const string SID = "batteries";
+
+	public override BuildingDef CreateBuildingDef()
     {
         //string id = "ZeroPointModule";
         int width = 2;
@@ -26,7 +28,7 @@ class ZeroPointModuleConfig : BaseBatteryConfig
         BuildingDef result = base.CreateBuildingDef(ID, width, height, hitpoints, anim, construction_time, tIER, aLL_METALS, melting_point, exhaust_temperature_active, self_heat_kilowatts_active, TUNING.BUILDINGS.DECOR.PENALTY.TIER5, TUNING.NOISE_POLLUTION.NOISY.TIER6);
         //result.EnergyConsumptionWhenActive = 120f;
         result.Floodable = false;
-        SoundEventVolumeCache.instance.AddVolume("batterymed_kanim", "Battery_med_rattle", TUNING.NOISE_POLLUTION.NOISY.TIER2);
+		SoundEventVolumeCache.instance.AddVolume("batterymed_kanim", "Battery_med_rattle", TUNING.NOISE_POLLUTION.NOISY.TIER2);
         return result;
     }
 

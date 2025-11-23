@@ -16,7 +16,7 @@ namespace ZeroPointModule
             Strings.Add("STRINGS.BUILDINGS.PREFABS.ZEROPOINTMODULE.NAME", "ZP Module");
             Strings.Add("STRINGS.BUILDINGS.PREFABS.ZEROPOINTMODULE.DESC", "Zero Point Energy Module. The energy of the vacuum feeds this battery.");
             Strings.Add("STRINGS.BUILDINGS.PREFABS.ZEROPOINTMODULE.EFFECT", "An inexhaustible energy source");
-            ModUtil.AddBuildingToPlanScreen("Power", ZeroPointModuleConfig.ID);
+            ModUtil.AddBuildingToPlanScreen("Power", ZeroPointModuleConfig.ID, ZeroPointModuleConfig.SID);
         }
     }
 
